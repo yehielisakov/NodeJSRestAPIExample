@@ -1,0 +1,33 @@
+{
+  "name": "nodejsrestapiexample",
+  "version": "1.0.0",
+  "description": "REST API Example in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon restServer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yehielisakov/NodeJSRestAPIExample.git"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Node.js",
+    "Example"
+  ],
+  "author": "Isakov Yehiel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yehielisakov/NodeJSRestAPIExample/issues"
+  },
+  "homepage": "https://github.com/yehielisakov/NodeJSRestAPIExample#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "request-ip": "^2.0.2"
+  }
+}
